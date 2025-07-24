@@ -12,3 +12,6 @@ const tipHTML = tipList()
 const locationHTML = locationList()
 
 // Render each HTML string to the correct DOM element
+document.querySelector("#fishList").innerHTML = fishHTML
+document.querySelector("#tipList").innerHTML = tipHTML
+document.querySelector("#locationList").innerHTML = locationHTML

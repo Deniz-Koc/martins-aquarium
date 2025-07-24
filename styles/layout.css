@@ -1,0 +1,108 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+header h1 {
+  text-align: center;
+  color: #004d40;
+}
+
+/* main layout */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+/* BALIK VE TİPS YANI YANA */
+#fishList {
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#tipList {
+  width: 40%;
+}
+
+/* fish card */
+.fish {
+  width: 260px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.fish__image {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.fish__name {
+  font-weight: bold;
+  color: #00695c;
+  margin-top: 8px;
+}
+
+.fish__species,
+.fish__length {
+  margin: 4px 0;
+}
+
+/* tips field */
+.tips {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  list-style-type: disc;
+  font-size: 0.95rem;
+}
+
+.tip {
+  margin-bottom: 10px;
+}
+
+/* location field */
+#locationList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 480px;  
+  margin: 40px auto 0 auto;
+  gap: 20px;
+}
+
+
+
+.location {
+  width: 220px;         
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.location__country {
+  font-weight: bold;
+  color: #004d40;
+  margin-top: 8px;
+}
+
+.location__description {
+  margin-top: 6px;
+  line-height: 1.4;
+}
